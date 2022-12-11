@@ -10,7 +10,7 @@
     --primary-margin-btwn-items: 24px;
 }
 
-/* Reset */
+/* ___________Reset_________ */
 
 .list {
     list-style: none;
@@ -44,7 +44,7 @@ address {
     font-style: normal;
 }
 
-/* General styles */
+/* ___________General styles_________ */
 
 .visually-hidden {
     position: absolute;
@@ -80,7 +80,7 @@ body {
 
 /* _____________HEADER______________ */
 
-/* Navigation */
+/* ___________Navigation_________ */
 
 .main-header {
     background-color: var(--white-background-color);
@@ -98,7 +98,7 @@ body {
     align-items: center;
 }
 
-/* Logo */
+/* ___________Logo_________ */
 
 .logo-link {
     display: inline-block;
@@ -114,7 +114,7 @@ body {
     color: var(--main-text-color);
 }
 
-/* Navigation menu */
+/* ___________Navigation menu_________ */
 
 .navigation-list,
 .navigation-link {
@@ -141,7 +141,7 @@ body {
     color: var(--primary-brand-color);
 }
 
-/* Contacts in header */
+/* ___________Contacts in header__________ */
 
 .contact-list {
     display: flex;
@@ -274,7 +274,6 @@ body {
 
 /* ___________WHAT ARE WE DOING________ */
 
-
 .services .item {
     flex-basis: calc(100% / 3 - var(--primary-margin-btwn-items));
     margin-left: var(--primary-margin-btwn-items);
@@ -282,7 +281,7 @@ body {
     border: 1px solid var(--accent-color);
 }
 
-/* _____________OUR TEAM____________ */
+/* ___________OUR TEAM__________ */
 
 .team-section {
     background-color: var(--light-backgrounds-color);
@@ -369,7 +368,12 @@ body {
     letter-spacing: 0.02em;
     color: var(--accent-color);
 }
-    
+
+.footer-message {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 /* ---------------------------------------------- */
 /* --------------------PORTFOLIO----------------- */
 /* ---------------------------------------------- */
@@ -381,10 +385,10 @@ body {
 }
 
 .portfolio-btn-list {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 72px;
-    }
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
 
 .portfolio-btn {
     display: inline-block;
@@ -417,7 +421,7 @@ body {
        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/*.btn {
+.btn {
     font-family: inherit;
     cursor: pointer;
     font-weight: 500;
@@ -473,27 +477,4 @@ body {
     color: var(--main-text-color);
     }
 
-/* FOOTER */
 
-.footer {
-    padding: 100px 0;
-    background-color: var(--headings-color);
-}
-
-.logo-message {
-    max-width: 264px;
-}
-
-.footer .logo-footer {
-    margin-bottom: 16px;
-    margin-right: 0;
-}
-
-.logo-web {
-    color: var(--primary-brand-color)
-}
-
-.footer-message {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
