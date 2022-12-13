@@ -119,7 +119,6 @@ body {
 .navigation-list,
 .navigation-link {
     display: block;
-    padding: 24px 0;
 
     font-weight: 500;
     line-height: 1.5;
@@ -154,7 +153,6 @@ body {
 
 .contact {
     display: block;
-    padding: 24px 0;
 
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -351,7 +349,8 @@ body {
 
 .logo-footer {
     display: inline-block;
-
+    margin-bottom: 16px;
+   
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -362,7 +361,6 @@ body {
     }
    
 .footer-message {
-    padding-bottom: 100px;
     width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -382,6 +380,7 @@ body {
 
 .main-portfolio {
     background-color: var(--main-white-bgc);
+    padding-top: 96px;
 }
 
 .portfolio-btn-list {
@@ -411,7 +410,8 @@ body {
     margin-right: var(--primary-margin-btwn-items);
 }
 
-.portfolio-btn:hover {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     color: var(--secondary-text-color);
     background: var(--primary-brand-color);
     border-color: transparent;
