@@ -401,7 +401,7 @@ body {
     height: 48px;
     letter-spacing: 0.04em;
     color: var(--primary-brand-color);
-    background: var(--light-backgrounds-color);
+    background: #f4f4fd;
     
     cursor: pointer;
 }
